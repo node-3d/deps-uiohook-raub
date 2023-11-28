@@ -13,7 +13,7 @@ npm i -s deps-uiohook-raub
 This dependency package is distributing **libUIOHook**
 binaries through **NPM** for **Node.js** addons.
 
-* Platforms (x64): Windows x64, Linux x64, OSX x64, Linux Aarch64.
+* Platforms (x64): Windows x64, Linux x64, OSX x64.
 * Library: libUIOHook.
 * Linking: static lib-type.
 
