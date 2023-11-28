@@ -13,4 +13,4 @@
 	cmake --install . --config Release
 )
 
-cp src/libuiohook/installed/lib/uiohook.a src/build/uiohook.a
+cp src/libuiohook/installed/lib/libuiohook.a src/build/libuiohook.a
