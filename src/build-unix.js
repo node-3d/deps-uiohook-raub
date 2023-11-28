@@ -39,7 +39,7 @@ const updateSystem = async () => {
 
 const buildLib = async () => {
 	try {
-		console.log('Bullet Build Started');
+		console.log('U Build Started');
 		const { stderr, stdout } = await exec(`sh ${getScriptForLib()}`);
 		if (stdout) {
 			console.error(stdout);
@@ -47,7 +47,7 @@ const buildLib = async () => {
 		if (stderr) {
 			console.error(stderr);
 		}
-		console.log('Bullet Build Finished');
+		console.log('U Build Finished');
 		console.log('-------------------');
 	} catch (error) {
 		fail(error);

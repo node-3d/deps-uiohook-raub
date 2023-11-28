@@ -1,4 +1,4 @@
-# Lib Binaries
+# libUIOHook Binaries
 
 This is a part of [Node3D](https://github.com/raub) project.
 
@@ -10,16 +10,14 @@ This is a part of [Node3D](https://github.com/raub) project.
 npm i -s deps-uiohook-raub
 ```
 
-This dependency package is distributing **Bullet Physics**
+This dependency package is distributing **libUIOHook**
 binaries through **NPM** for **Node.js** addons.
 
 * Platforms (x64): Windows x64, Linux x64, OSX x64, Linux Aarch64.
-* Library: Bullet physics, see list below.
+* Library: libUIOHook.
 * Linking: static lib-type.
 
-See the official
-[Bullet3 manual](https://github.com/bulletphysics/bullet3/blob/master/docs/Bullet_User_Manual.pdf)
-and [examples](https://github.com/bulletphysics/bullet3/tree/master/examples).
+See the [libUIOHook repository](https://github.com/kwhat/libuiohook).
 
 See [uiohook-raub](https://github.com/raub/uiohook-raub/tree/master/src) for
 how the libraries may be used in a Node.js addon.
