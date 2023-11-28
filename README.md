@@ -3,8 +3,8 @@
 This is a part of [Node3D](https://github.com/raub) project.
 
 [![NPM](https://badge.fury.io/js/deps-uiohook-raub.svg)](https://badge.fury.io/js/deps-uiohook-raub)
-[![ESLint](https://github.com/raub/deps-uiohook-raub/actions/workflows/eslint.yml/badge.svg)](https://github.com/raub/deps-uiohook-raub/actions/workflows/eslint.yml)
-[![Test](https://github.com/raub/deps-uiohook-raub/actions/workflows/test.yml/badge.svg)](https://github.com/raub/deps-uiohook-raub/actions/workflows/test.yml)
+[![ESLint](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/eslint.yml/badge.svg)](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/eslint.yml)
+[![Test](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/test.yml/badge.svg)](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/test.yml)
 
 ```console
 npm i -s deps-uiohook-raub
@@ -19,7 +19,7 @@ binaries through **NPM** for **Node.js** addons.
 
 See the [libUIOHook repository](https://github.com/kwhat/libuiohook).
 
-See [uiohook-raub](https://github.com/raub/uiohook-raub/tree/master/src) for
+See [iohook-raub](https://github.com/node-3d/iohook-raub/tree/master/src) for
 how the libraries may be used in a Node.js addon.
 
 
