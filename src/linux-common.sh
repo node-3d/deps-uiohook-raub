@@ -1,7 +1,7 @@
 (
 	cd src/libuiohook/build
 	
-	cmake -A x64 \
+	cmake \
 		-DBUILD_SHARED_LIBS=OFF \
 		-DBUILD_DEMO=OFF \
 		-DCMAKE_INSTALL_PREFIX=../installed \
