@@ -1,0 +1,12 @@
+.cproject
+.idea
+.lock-wscript
+.DS_Store
+.project
+.vscode
+.eslintrc
+node_modules/
+bin-*/
+src/build/
+src/libuiohook/
+*.log
