@@ -1,13 +1,13 @@
 # libUIOHook Binaries
 
-This is a part of [Node3D](https://github.com/raub) project.
+This is a part of [Node3D](https://github.com/node-3d) project.
 
-[![NPM](https://badge.fury.io/js/deps-uiohook-raub.svg)](https://badge.fury.io/js/deps-uiohook-raub)
-[![ESLint](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/eslint.yml/badge.svg)](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/eslint.yml)
-[![Test](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/test.yml/badge.svg)](https://github.com/node-3d/deps-uiohook-raub/actions/workflows/test.yml)
+[![NPM](https://badge.fury.io/js/%40node-3d%2Fdeps-uiohook.svg)](https://badge.fury.io/js/@node-3d/deps-uiohook)
+[![Lint](https://github.com/node-3d/deps-uiohook/actions/workflows/lint.yml/badge.svg)](https://github.com/node-3d/deps-uiohook/actions/workflows/lint.yml)
+[![Test](https://github.com/node-3d/deps-uiohook/actions/workflows/test.yml/badge.svg)](https://github.com/node-3d/deps-uiohook/actions/workflows/test.yml)
 
 ```console
-npm i -s deps-uiohook-raub
+npm install @node-3d/deps-uiohook
 ```
 
 This dependency package is distributing **libUIOHook**
@@ -19,7 +19,7 @@ binaries through **NPM** for **Node.js** addons.
 
 See the [libUIOHook repository](https://github.com/kwhat/libuiohook).
 
-See [iohook-raub](https://github.com/node-3d/iohook-raub/tree/master/src) for
+See [@node-3d/iohook](https://github.com/node-3d/iohook/tree/master/src/cpp) for
 how the libraries may be used in a Node.js addon.
 
 

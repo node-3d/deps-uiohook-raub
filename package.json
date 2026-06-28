@@ -1,7 +1,7 @@
 {
 	"author": "Luis Blanco <luisblanco1337@gmail.com>",
-	"name": "deps-uiohook-raub",
-	"version": "0.1.0",
+	"name": "@node-3d/deps-uiohook",
+	"version": "1.0.0",
 	"description": "Binaries and headers for libUIOHook-dependent compilation",
 	"license": "MIT",
 	"main": "index.js",
@@ -22,7 +22,7 @@
 	"files": [
 		"include",
 		"index.js",
-		"install.d.ts",
+		"index.d.ts",
 		"install.js",
 		"LIBUIOHOOK_LGPL.md",
 		"LICENSE",
@@ -30,26 +30,42 @@
 		"README.md"
 	],
 	"scripts": {
-		"postinstall": "node install",
-		"eslint": "eslint .",
-		"test": "node --test"
+		"postinstall": "node install.js",
+		"test": "npm run test:watch",
+		"test:watch": "node --test --watch \"test/**/*.test.js\"",
+		"test-ci": "npm run test:ci",
+		"test:ci": "node --test \"test/**/*.test.js\"",
+		"lint": "npm run lint:all",
+		"lint:oxlint": "oxlint .",
+		"lint:all": "npm run lint:oxlint"
 	},
 	"engines": {
-		"node": ">=20.14.0",
-		"npm": ">=10.7.0"
+		"node": ">=24.13.0",
+		"npm": ">=11.6.2"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/node-3d/deps-uiohook-raub.git"
+		"url": "https://github.com/node-3d/deps-uiohook.git"
 	},
 	"dependencies": {
-		"addon-tools-raub": "^8.0.0"
+		"@node-3d/addon-tools": "^11.0.0"
 	},
 	"devDependencies": {
-		"@types/node": "^20.12.13",
-		"@eslint/js": "^9.3.0",
-		"eslint": "^9.3.0",
-		"node-addon-api": "^8.0.0",
-		"typescript": "^5.4.5"
+		"oxlint": "^1.65.0"
+	},
+	"type": "module",
+	"types": "index.d.ts",
+	"exports": {
+		".": {
+			"types": "./index.d.ts",
+			"default": "./index.js"
+		}
+	},
+	"bugs": {
+		"url": "https://github.com/node-3d/node-3d/issues"
+	},
+	"homepage": "https://github.com/node-3d/node-3d#readme",
+	"publishConfig": {
+		"access": "public"
 	}
 }
