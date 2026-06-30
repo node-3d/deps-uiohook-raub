@@ -69,7 +69,7 @@ jobs:
 
       - name: Add msbuild to PATH
         if: matrix.os == 'windows-2022'
-        uses: microsoft/setup-msbuild@v1.1
+        uses: microsoft/setup-msbuild@v2
         with:
           msbuild-architecture: x64
 
@@ -94,7 +94,7 @@ jobs:
 
       - name: Pack Files
         id: pack-files
-        run: node -e "require('@node-3d/addon-tools').actionPack()" >> $GITHUB_OUTPUT
+        run: node -e "import('@node-3d/addon-tools').then((m) => m.actionPack())" >> $GITHUB_OUTPUT
 
       - name: Store Binaries
         uses: softprops/action-gh-release@v3
